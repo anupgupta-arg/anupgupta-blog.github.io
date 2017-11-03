@@ -1,0 +1,137 @@
+
+.cntr{
+    padding: 0;
+    margin: 0;
+    font-size: .75rem;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+}
+.icon-dark-color{
+    color: #070e0f
+}
+.navbar-nav{
+    font-size: 1rem;
+}
+.sidebar-menu{
+    font-size:1rem;
+    background-color: #19B6D6; 
+}
+.item {
+    /* border: 1px solid #fff; */
+    border-bottom: 1px solid #fff;
+}
+.item .sub-item{
+
+}
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    
+    border-bottom: 1px solid #eee;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;    
+    color: #ffffff;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.panel-title > a:hover{
+    color:rgb(168, 215, 240);
+}
+.more-less {
+    float: right;
+    color: #ffffff;
+}
+.more-less :hover{    
+    color: rgb(168, 215, 240);
+}
+.sub-item a{
+    color:rgb(168, 215, 240)
+}
+.sub-item a:hover{
+    color:#ffffff;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+
+.img-usr{    
+    border-radius:50%
+}
+.chat-area{
+    margin: 0;
+    height: 72vh;
+    min-height: 70%;
+    overflow-y: auto;
+}
+.chat-box{    
+    height:12vh;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.chat-area:-webkit-any(){
+    margin: 0;
+    height: 70vh;
+    min-height: 70%;
+    overflow-y: auto;
+}
+.chat-box:-webkit-any(){    
+    height:11vh;
+}
+.chat-box textarea{
+    resize: none;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+    padding: 1em;
+    background-color: #17a2b8;
+}
+.chat-box textarea:focus{
+    color:#fff;
+    background-color: #177d8d;
+}
+.card{
+    height:100%;
+    border-radius: 0;
+    border: 0;
+}
+.card-text{
+    font-size: 1rem;
+}
+.card-text span{
+    font-weight: bold
+}
+.input-group{
+    height:100%;
+}
+.btn, .form-control{
+    border-radius: 0;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color:#fff;
+}
+.nav-pills .nav-link {
+    color: #19b6d6;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #19b6d6;
+}
+dt.col-sm-6.label {
+    color: #19B6D6;
+    padding-right: 1em;
+}
